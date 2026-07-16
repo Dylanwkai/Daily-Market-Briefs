@@ -1,0 +1,7 @@
+# Obsidian workspace state (device-specific, changes constantly)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+# OS junk
+.DS_Store
+.trash/
