@@ -13,11 +13,20 @@ tags: [market-briefing]
 
 ## 1. Executive Summary
 
-1. **[BEARISH] Asia chip rout underway.** Kospi fell more than 7% intraday and tripped a circuit breaker, with [[SK Hynix]] -11% and Samsung -8%; Nikkei -2.7%. Trigger: doubts about AI capex returns after Meta's plan to resell excess compute, a looming CXMT capacity-raising IPO, and reports [[Apple]] may source chips from Chinese suppliers. Micron fell 8% in the US session first. ([JoongAng](https://www.koreajoongangdaily.com/business/kospi-slides-over-7-as-investors-dump-chip-stocks-on-concerns-of-excess-ai-capacity/12752742), [Investing.com](https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-s-korea-chip-stocks-tumble-tsmc-earnings-in-focus-4794618))
-2. **[BULLISH] Second cool US inflation print in two days.** June PPI fell 0.3% m/m (flat expected) after Tuesday's softer-than-expected CPI. July hike odds collapsed — futures put ~85%+ on a hold at the 28–29 July FOMC. 2Y -4bp to 4.145%; 10Y 4.555%. ([CNBC](https://www.cnbc.com/2026/07/15/treasury-yields-investors-producer-price-inflation-data.html))
-3. **[PIVOTAL] [[TSMC]] Q2 results today** — the referee of the AI capex debate. Consensus: net income ~NT$633bn, ~US$3.82/ADR; AI chips ~61% of revenue. Capex and margin guidance decide whether the memory rout spreads or reverses. ([Motley Fool](https://www.fool.com/investing/2026/07/13/taiwan-semiconductor-reports-earnings-july-16-here/))
-4. **[BEARISH RISK] Hormuz standoff grinds on.** US struck Iran again and reinstated a naval blockade of Iranian ports; Tehran declares the strait shut, yet ~8.5m bbl transited in a single day (US Energy Dept). Brent settled $84.95 (+22c) — a strikingly small risk premium. ([CNBC](https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html))
-5. **[BULLISH AAPL] Apple's China double.** Beijing approved Apple Intelligence (running on [[Alibaba]] Qwen/Baidu models) after a two-year wait; Apple rose 4% to a record. Separately, Apple is reportedly in talks with two Chinese chipmakers — good for the China franchise, direct threat to Korean memory. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-07-15/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china))
+> [!CAUTION]
+> **1. Bearish: Asia chip rout underway.** Kospi fell more than 7% intraday and tripped a circuit breaker, with [[SK Hynix]] -11% and Samsung -8%; Nikkei -2.7%. Trigger: doubts about AI capex returns after Meta's plan to resell excess compute, a looming CXMT capacity-raising IPO, and reports [[Apple]] may source chips from Chinese suppliers. Micron fell 8% in the US session first. ([JoongAng](https://www.koreajoongangdaily.com/business/kospi-slides-over-7-as-investors-dump-chip-stocks-on-concerns-of-excess-ai-capacity/12752742), [Investing.com](https://www.investing.com/news/stock-market-news/asia-stocks-slide-as-s-korea-chip-stocks-tumble-tsmc-earnings-in-focus-4794618))
+
+> [!TIP]
+> **2. Bullish: Second cool US inflation print in two days.** June PPI fell 0.3% m/m (flat expected) after Tuesday's softer-than-expected CPI. July hike odds collapsed — futures put ~85%+ on a hold at the 28–29 July FOMC. 2Y -4bp to 4.145%; 10Y 4.555%. ([CNBC](https://www.cnbc.com/2026/07/15/treasury-yields-investors-producer-price-inflation-data.html))
+
+> [!NOTE]
+> **3. Neutral: [[TSMC]] Q2 results today** — the referee of the AI capex debate. Consensus: net income ~NT$633bn, ~US$3.82/ADR; AI chips ~61% of revenue. Capex and margin guidance decide whether the memory rout spreads or reverses. ([Motley Fool](https://www.fool.com/investing/2026/07/13/taiwan-semiconductor-reports-earnings-july-16-here/))
+
+> [!CAUTION]
+> **4. Bearish: Hormuz standoff grinds on.** US struck Iran again and reinstated a naval blockade of Iranian ports; Tehran declares the strait shut, yet ~8.5m bbl transited in a single day (US Energy Dept). Brent settled $84.95 (+22c) — a strikingly small risk premium. ([CNBC](https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html))
+
+> [!TIP]
+> **5. Bullish: Apple's China double.** Beijing approved Apple Intelligence (running on [[Alibaba]] Qwen/Baidu models) after a two-year wait; Apple rose 4% to a record. Separately, Apple is reportedly in talks with two Chinese chipmakers — good for the China franchise, direct threat to Korean memory. ([Bloomberg](https://www.bloomberg.com/news/articles/2026-07-15/apple-gets-approval-for-alibaba-powered-iphone-ai-tools-in-china))
 
 ## 2. Theme Tracker
 
@@ -75,8 +84,11 @@ tags: [market-briefing]
 
 **How it makes money:** The world's #2 memory maker. Two commodity businesses — DRAM (working memory) and NAND (storage) — where price is set by industry supply/demand, not by Hynix. Layered on top: [[HBM]] (high-bandwidth memory), the stacked DRAM bolted onto AI accelerators, where Hynix has been Nvidia's lead supplier. HBM behaves less like a commodity: capacity is committed to specific customers up to a year ahead, so pricing is contract-like. The three KPIs: (1) DRAM ASP — the cycle in one number; (2) HBM share of DRAM revenue and whether next year's capacity is "sold out"; (3) industry capex / bit-supply growth — today's capex is next 18 months' supply, hence CXMT's expansion plan hitting the stock.
 
-- **Bull in one line:** HBM is a quasi-contractual moat inside a commodity company, AI demand still compounds, and an 11% one-day markdown prices a downcycle that hasn't shown up in orders.
-- **Bear in one line:** Memory is entering oversupply — CXMT adds Chinese capacity, Apple legitimizes it, and if hyperscalers (see Meta) overbuilt, even "sold out" HBM gets renegotiated.
+> [!TIP]
+> **Bull:** HBM is a quasi-contractual moat inside a commodity company, AI demand still compounds, and an 11% one-day markdown prices a downcycle that hasn't shown up in orders.
+
+> [!CAUTION]
+> **Bear:** Memory is entering oversupply — CXMT adds Chinese capacity, Apple legitimizes it, and if hyperscalers (see Meta) overbuilt, even "sold out" HBM gets renegotiated.
 
 **Differentiating question:** Are Hynix's 2027 HBM supply agreements take-or-pay (customers pay even if they cut usage) or volume-flexible? That determines whether HBM revenue is genuinely contractual or commodity revenue with better PR — and almost nobody outside the supply chain knows.
 

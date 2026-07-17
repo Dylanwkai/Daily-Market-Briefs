@@ -2,7 +2,7 @@
 
 Obsidian vault. Four folders:
 
-- `briefings/` — daily PDFs from the scheduled Cowork task (drag in weekly, or point the task's output folder here)
+- `briefings/` — daily markdown briefing from the scheduled Cowork task (no PDF — dropped to save vault storage and morning render tokens)
 - `journal/` — ONE file per month (`Journal_YYYY-MM.md`), appended daily. Never one file per day.
 - `ideas/` — one file per thesis, from `templates/Idea.md`. Only ideas that survived a stress-test live here.
 - `INDEX.md` — one line per idea. **The most important file in the vault** — it's what makes retrieval cheap.
@@ -11,7 +11,7 @@ Obsidian vault. Four folders:
 
 ## Daily loop (~20 min)
 
-**1. Read** the briefing PDF (7:00 AM SGT).
+**1. Read** the briefing markdown file (7:00 AM SGT).
 
 **2. Journal** — open this month's journal file, add today's entry (template at bottom of the monthly file):
 - 3-line take on the day
@@ -47,5 +47,5 @@ New chat: *"Attached INDEX.md. Pick my 5 strongest ideas for a [buyside/S&T] int
 ## Token rules
 1. New chat per discussion; close it when done. Never a running mega-chat.
 2. Attach only INDEX.md + the specific entry/idea file under discussion.
-3. Everything in markdown. PDFs are for reading; markdown is for retrieval.
+3. Everything in markdown — no PDFs. Markdown is what's read and what's retrieved.
 4. Journal = one monthly file, appended daily. Update the doc, don't multiply docs.
