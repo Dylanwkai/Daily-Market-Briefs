@@ -1,0 +1,44 @@
+/* Daily Market Briefing — custom bull/bear callouts + header polish.
+   One-time snippet; briefing generation just writes [!bullish]/[!bearish]/
+   [!mixed]/[!neutral] and this handles the color/icon, no per-morning cost. */
+
+.callout[data-callout="bullish"] {
+  --callout-color: 34, 139, 87;
+  --callout-icon: trending-up;
+}
+
+.callout[data-callout="bearish"] {
+  --callout-color: 224, 49, 49;
+  --callout-icon: trending-down;
+}
+
+.callout[data-callout="mixed"] {
+  --callout-color: 217, 131, 13;
+  --callout-icon: shuffle;
+}
+
+.callout[data-callout="neutral"] {
+  --callout-color: 66, 133, 244;
+  --callout-icon: info;
+}
+
+/* Section headers */
+.markdown-preview-view h2,
+.markdown-rendered h2 {
+  margin-top: 1.8em;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--background-modifier-border);
+  color: var(--text-accent);
+}
+
+.markdown-preview-view h3,
+.markdown-rendered h3 {
+  margin-top: 1.2em;
+  color: var(--text-accent);
+}
+
+/* Table headers */
+.markdown-preview-view table thead th,
+.markdown-rendered table thead th {
+  background: var(--background-secondary);
+}

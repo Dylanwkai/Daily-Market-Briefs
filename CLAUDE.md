@@ -6,22 +6,26 @@ Push directly to `main`. Do not develop on a separate feature branch or open a p
 
 No PDF. Write only the markdown file (`01 MarketsVault/briefings/Market Briefing YYYY-MM-DD.md`) — skip any PDF-export step described elsewhere (e.g. an inherited task prompt). PDFs were dropped: they bloated Obsidian vault storage and cost extra tokens to render every morning for no retrieval benefit (markdown is what gets read and searched).
 
-Color-code bullish/bearish calls using the 5 alert callouts GitHub and Obsidian both render natively (green/red/yellow/blue, no CSS needed) — but keep the explicit word too; the color is a supplement, not a replacement for the label:
+Color-code bullish/bearish calls using **custom callout types whose name is the label itself** — `[!bullish]`, `[!bearish]`, `[!mixed]`, `[!neutral]` — rather than GitHub's generic `[!TIP]`/`[!CAUTION]`/`[!WARNING]`/`[!NOTE]`. Obsidian renders the type name as the callout's title by default, so the colored box literally reads "Bullish"/"Bearish", no duplicate wording needed in the body:
 
-- Bullish → `> [!TIP]`
-- Bearish → `> [!CAUTION]`
-- Mixed / uncertain → `> [!WARNING]`
-- Neutral / informational → `> [!NOTE]`
+- Bullish → `> [!bullish]`
+- Bearish → `> [!bearish]`
+- Mixed / uncertain → `> [!mixed]`
+- Neutral / informational → `> [!neutral]`
 
-Put the type alone on its own line — GitHub ignores extra text placed after it, Obsidian's default title works fine unstyled. Put the actual headline (bold, tag word included) and body as blockquote lines under it:
+The colors/icons for these four types are defined once in `.obsidian/snippets/market-briefing.css` (enabled in `.obsidian/appearance.json`) — a one-time setup, not a per-morning cost. Put the type alone on its own line, headline (bold, no tag word — the callout title already says it) and body as blockquote lines under it:
 
 ```
-> [!CAUTION]
-> **1. Bearish: TSMC beat and raised — and chips sold off anyway.** Record Q2 profit... ([source](url))
+> [!bearish]
+> **1. TSMC beat and raised — and chips sold off anyway.** Record Q2 profit... ([source](url))
 ```
 
 Apply this to:
-- **Executive Summary** — each ranked item becomes one callout; keep the rank number and the tag word (Bullish/Bearish/Mixed/Neutral) in the bold headline.
-- **Idea Lab** — wrap "Bull in one line" in `[!TIP]`, "Bear in one line" in `[!CAUTION]`, keeping the "Bull:"/"Bear:" label.
+- **Executive Summary** — each ranked item becomes one callout. Number items as `1.1`, `1.2`, ... `1.5` (section 1, sub-item N) instead of a bare rank.
+- **Idea Lab** — wrap "Bull in one line" in `[!bullish]`, "Bear in one line" in `[!bearish]`.
 
-Do not color anything else. Theme Tracker STATE labels (strengthening/weakening/stable/turning) aren't bull/bear judgments, and Trade Floor must stay directionless per the report brief — leave both as plain text.
+Do not color anything else — Theme Tracker STATE labels (strengthening/weakening/stable/turning) aren't bull/bear judgments, and Trade Floor must stay directionless per the report brief. Leave both as plain text.
+
+Note: `[!bullish]` etc. are Obsidian-only callout types — GitHub's web renderer doesn't recognize them and will show a plain, uncolored blockquote there. This trades GitHub-web fidelity for a cleaner Obsidian read, which is where the briefing actually gets read (per `README_Workflow.md`).
+
+**Numbered sub-pointers:** within every numbered section (1–8), number each sub-item `<section>.<n>` (e.g. Asia Day-Ahead's sub-points are `4.1`, `4.2`, `4.3`, `4.4`) instead of a bare bold lead-in. Skip this for the two tables (Catalyst Calendar, Market Dashboard) and Global Pulse's spec-mandated (a)/(b)/(c) lettering.
