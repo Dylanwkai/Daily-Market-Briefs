@@ -6,7 +6,7 @@ Push directly to `main`. Do not develop on a separate feature branch or open a p
 
 No PDF. Write only the markdown file (`01 MarketsVault/briefings/Market Briefing YYYY-MM-DD.md`) — skip any PDF-export step described elsewhere (e.g. an inherited task prompt). PDFs were dropped: they bloated Obsidian vault storage and cost extra tokens to render every morning for no retrieval benefit (markdown is what gets read and searched).
 
-Color-code bullish/bearish calls using **custom callout types whose name is the label itself** — `[!bullish]`, `[!bearish]`, `[!mixed]`, `[!neutral]` — rather than GitHub's generic `[!TIP]`/`[!CAUTION]`/`[!WARNING]`/`[!NOTE]`. Obsidian renders the type name as the callout's title by default, so the colored box literally reads "Bullish"/"Bearish", no duplicate wording needed in the body:
+Only the Obsidian render matters (that's where this gets read — GitHub-web fidelity is not a goal). Color-code bullish/bearish calls using **custom callout types whose name is the label itself** — `[!bullish]`, `[!bearish]`, `[!mixed]`, `[!neutral]` — never GitHub's generic `[!TIP]`/`[!CAUTION]`/`[!WARNING]`/`[!NOTE]`. Obsidian renders the type name as the callout's title by default, so the colored box literally reads "Bullish"/"Bearish", no duplicate wording needed in the body:
 
 - Bullish → `> [!bullish]`
 - Bearish → `> [!bearish]`
@@ -25,7 +25,5 @@ Apply this to:
 - **Idea Lab** — wrap "Bull in one line" in `[!bullish]`, "Bear in one line" in `[!bearish]`.
 
 Do not color anything else — Theme Tracker STATE labels (strengthening/weakening/stable/turning) aren't bull/bear judgments, and Trade Floor must stay directionless per the report brief. Leave both as plain text.
-
-Note: `[!bullish]` etc. are Obsidian-only callout types — GitHub's web renderer doesn't recognize them and will show a plain, uncolored blockquote there. This trades GitHub-web fidelity for a cleaner Obsidian read, which is where the briefing actually gets read (per `README_Workflow.md`).
 
 **Numbered sub-pointers:** within every numbered section (1–8), number each sub-item `<section>.<n>` (e.g. Asia Day-Ahead's sub-points are `4.1`, `4.2`, `4.3`, `4.4`) instead of a bare bold lead-in. Skip this for the two tables (Catalyst Calendar, Market Dashboard) and Global Pulse's spec-mandated (a)/(b)/(c) lettering.
